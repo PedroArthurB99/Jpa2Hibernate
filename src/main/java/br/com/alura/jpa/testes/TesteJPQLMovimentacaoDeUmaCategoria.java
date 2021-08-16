@@ -8,7 +8,6 @@ import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
 import br.com.alura.jpa.modelo.Categoria;
-import br.com.alura.jpa.modelo.Conta;
 import br.com.alura.jpa.modelo.Movimentacao;
 
 public class TesteJPQLMovimentacaoDeUmaCategoria {
@@ -36,7 +35,5 @@ public class TesteJPQLMovimentacaoDeUmaCategoria {
 		}
 
 		em.close();
-
 	}
-
 }
